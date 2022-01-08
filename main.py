@@ -41,7 +41,10 @@ if playerAnswer == "scissors" and computerAnswer == "rock":
 
 # case 5: if player choose something not in the list:
 
-if playerAnswer != "scissors" and playerAnswer != "rock" and playerAnswer != "paper":
+if playerAnswer == "yara":
+    print("yara is the developer of this game but choose something else please ")
+
+if playerAnswer != "scissors" and playerAnswer != "rock" and playerAnswer != "paper" and playerAnswer != "yara":
     print("Please !!! Choose only: rock, paper or scissors !!!")
 
-# end of code //
+# end of code
